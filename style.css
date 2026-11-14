@@ -1,0 +1,181 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f0f2f5;
+  color: #222;
+  margin: 0;
+  padding: 0;
+}
+
+.topo {
+  background: #2b4c7e;
+  color: #fff;
+  padding: 16px;
+  text-align: center;
+}
+
+.topo h1 {
+  margin: 0 0 5px 0;
+  font-size: 22px;
+}
+
+.topo p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.pagina {
+  max-width: 1050px;
+  margin: 20px auto;
+  padding: 0 15px;
+}
+
+.bloco {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 16px;
+  margin-bottom: 18px;
+}
+
+.bloco h2 {
+  margin-top: 0;
+  font-size: 18px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 6px;
+}
+
+.campo {
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.campo label {
+  width: 220px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.campo input[type="range"] {
+  flex: 1;
+}
+
+.campo input[type="number"], .campo select {
+  width: 85px;
+  padding: 5px;
+}
+
+.acoes {
+  margin-top: 15px;
+  display: flex;
+  gap: 10px;
+}
+
+button {
+  padding: 8px 14px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#btnCalcular { background: #2b4c7e; color: white; }
+#btnEtapa { background: #2e7d32; color: white; }
+#btnRestaurar { background: #666; color: white; }
+
+.erro {
+  color: #c62828;
+  font-weight: bold;
+  font-size: 14px;
+  margin: 8px 0;
+}
+
+.aviso {
+  color: #ef6c00;
+  font-size: 13px;
+  margin: 8px 0;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 7px;
+  text-align: left;
+}
+
+th {
+  background: #f7f7f7;
+}
+
+tbody tr:hover {
+  background: #f5f8ff;
+  cursor: pointer;
+}
+
+tr.ativa {
+  background: #e3f2fd;
+  font-weight: bold;
+}
+
+tr.selecionada {
+  outline: 2px solid #2b4c7e;
+}
+
+.dupla {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.dupla > div {
+  flex: 1;
+  min-width: 300px;
+}
+
+canvas {
+  border: 1px solid #ccc;
+  background: #fafafa;
+  width: 100%;
+  height: auto;
+}
+
+.info-num {
+  font-size: 13px;
+  background: #f7f7f7;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+.resultado {
+  margin-top: 10px;
+  padding: 10px;
+  background: #e8f5e9;
+  border: 1px solid #a5d6a7;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+
+pre {
+  background: #263238;
+  color: #eceff1;
+  padding: 12px;
+  border-radius: 4px;
+  font-size: 13px;
+  white-space: pre-wrap;
+  max-height: 250px;
+  overflow-y: auto;
+}
+
+.rodape {
+  text-align: center;
+  padding: 15px;
+  font-size: 14px;
+}
